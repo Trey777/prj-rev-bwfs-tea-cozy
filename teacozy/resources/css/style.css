@@ -1,0 +1,142 @@
+body {
+  margin: 0 auto;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1pt solid seashell;
+  text-decoration: underline;
+}
+
+header nav span {
+  padding-right: 30px;
+}
+
+#container {
+  padding-top: 69px;
+  display: inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:seashell;
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.mainText {
+  display: flex;
+  margin: 0 0;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
+}
+
+.mainText h2, .mainText h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#teaMonth {
+  margin-top: 30px;
+  display: inline-block;
+  width: 1000px;
+}
+
+.photoDescriptions {
+  justify-content: center;
+  align-content: space-between;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+.photoNote img {
+  height: 200px;
+  width: 300px;
+  padding: 0 15px;
+}
+
+.photoNote {
+  margin-bottom: 20px;
+}
+
+.photoNote h4 {
+  padding: 0 0;
+  margin-top: 10px;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 600px;
+  width: 1200px;
+  top: 70px;
+  margin: 10px auto;
+  align-items: center;
+}
+
+#locations h2 {
+  padding-bottom: 0;
+  margin-bottom: 15px;
+  ;
+}
+
+.locationCities {
+  display: inline-flex;
+  width: 1000px;
+  height: 300px;
+  justify-content: space-between;
+  bottom: 150px;
+}
+
+.address {
+  opacity: 1;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+
+}
+.contactInfo {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+	padding-bottom: 60px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin: 0 auto;
+	padding-left: 20px;
+}
